@@ -9,6 +9,8 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    fetch-remote-regions-registry:
+    registry-fetch-interval-seconds:
 
   server:
     #关闭自我保护
